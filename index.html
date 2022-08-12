@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zl-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ganhui</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      margin: 0;
+    }
+    /* 头部样式 */
+    .header {
+      background-color: #74c1f8;
+      padding: 20px;
+      text-align: center;
+    }
+    /* 导航条 */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(51, 51, 51);
+    }
+
+    /* 导航链接 */
+    .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 16px 20px;
+      text-decoration: none;
+    }
+
+    /* 链接 - 修改颜色 */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    #left {
+      width: 200px;
+      background: #93ffff;
+      height: 500px;
+    }
+    #right {
+      background: #4d91cd;
+      height: 500px;
+      flex-grow: 1;
+      margin-left: 10px;
+    }
+    #main {
+      display: flex;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h1>This is my website</h1>
+    </div>
+
+    <div class="topnav">
+      <img
+        src="头像.jpg"
+        style="margin: 3px 30px"
+        width="50"
+        height="50"
+        alt="头像"
+      />
+      <a href="#">其他</a>
+      <a href="#">娱乐</a>
+      <a href="#">学习</a>
+      <a href="#">生活</a>
+      <a href="#">主页</a>
+    </div>
+    <div id="main">
+      <div id="left" style="text-align: center">
+        <b>常用网页</b><br /><br />
+        <a
+          href="https://space.bilibili.com/34786453/channel/collectiondetail?sid=268989&ctype=0"
+          >康文昌视频主页</a
+        ><br /><br />
+        <a
+          href="https://www.bilibili.com/?spm_id_from=333.999.b_696e7465726e6174696f6e616c486561646572.1"
+          >哔哩哔哩</a
+        ><br /><br />
+        <a href="https://www.runoob.com/">菜鸟教程</a><br /><br />
+        <a href="https://developer.mozilla.org/en-US/">mdn</a>
+        <br /><br />
+      </div>
+
+      <div id="right">
+        <div style="justify-content: center">
+          《长安十二时辰》
+          <hr />
+          <!--分割线-->
+          <br /><b>张小敬</b><br />
+        </div>
+        <p><abbr title="《长安十二时辰》">本书</abbr></p>
+        <p><bdo dir="rtl">《长安十二时辰》</bdo></p>
+        <address>作者：马伯庸</address>
+        <p>以下是书籍内容的引用</p>
+        <blockquote>唐天宝三年，元月十四日，长安。</blockquote>
+        <p><del>这本书写的一般</del></p>
+        <em>真的很好</em><br />
+        <code>printf("好书《长安十二时辰》")</code>
+        <br /><code>print('好书《长安十二时辰》')</code><br />
+      </div>
+    </div>
+    <div style="background-color: #50b9e2; clear: both; text-align: center">
+      <p>网站链接</p>
+      <br />
+      <a
+        href="https://baike.baidu.com/item/%E9%95%BF%E5%AE%89%E5%8D%81%E4%BA%8C%E6%97%B6%E8%BE%B0/23699567"
+        >马伯庸所著网络小说</a
+      >
+    </div>
+  </body>
+</html>
